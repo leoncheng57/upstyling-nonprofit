@@ -1,4 +1,19 @@
 #topnav {
     background-color: $olive;
     color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    * {
+        flex-grow: 1;
+    }
+    .spacer {
+        flex-grow: 10;
+    }
+    img {
+        height: 24px;
+    }
 }
