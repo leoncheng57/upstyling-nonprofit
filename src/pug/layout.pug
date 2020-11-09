@@ -1,10 +1,17 @@
 doctype html
 head
     title Upstyling
-    import(url='https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&family=Cookie&family=Flamenco:wght@300;400&display=swap')
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
 body
     div#topnav
-        div.inner
+        div.mobile-version
+            a(href="/")
+                p.logotext upstyling
+            div.hamburger
+                div.patty 
+                div.patty 
+                div.patty 
+        div.desktop-version
             a(href="/")
                 p.logotext upstyling
             a(href="#")
