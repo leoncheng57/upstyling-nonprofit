@@ -15,21 +15,21 @@
         margin: 0;
         padding: 0 24px;
 
-        * {
+        p, img {
             flex-grow: 1;
         }
-        .spacer {
+        div.spacer {
             flex-grow: 10;
         }
         img {
             height: 24px;
         }
 
-        * {
+        p {
             font: italic normal normal 16px/18px Asap, sans-serif;
             letter-spacing: 0.64px;
         }
-        .logotext {
+        p.logotext {
             font: normal normal normal 48px/53px Cookie;
             margin: 0;
             padding-right: 40px;
