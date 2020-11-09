@@ -15,24 +15,37 @@
         margin: 0;
         padding: 0 24px;
 
-        p, img {
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        a:hover {
+            opacity: 0.7;
+        }
+
+        // Spacing
+        a {
             flex-grow: 1;
         }
         div.spacer {
             flex-grow: 10;
         }
-        img {
-            height: 24px;
-        }
 
-        p {
+        // Fonts and Sizing
+        a {
             font: italic normal normal 16px/18px Asap, sans-serif;
             letter-spacing: 0.64px;
         }
+
         p.logotext {
             font: normal normal normal 48px/53px Cookie;
             margin: 0;
             padding-right: 40px;
         }
+
+        img {
+            height: 24px;
+        }
+
     }
 }
