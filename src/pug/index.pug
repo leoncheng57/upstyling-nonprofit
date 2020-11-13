@@ -1,4 +1,14 @@
 extends layout
 
+
+mixin logo
+    div#logo-container
+        div.title upstyling
+        div.subtitle Creations for Change
+
 block content
-    div content 
+    +logo
+    div (image goes here)
+    div Buy our stuff!
+    div You can purchase your very own artwork on our 
+        a(href="#") Etsy 
