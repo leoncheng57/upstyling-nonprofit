@@ -1,8 +1,4 @@
-doctype html
-head
-    title Upstyling
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-body
+mixin navbar
     div#topnav
         //- Mobile Hamburger Menu
         div.mobile-version
@@ -31,5 +27,26 @@ body
                 img(src="../imgs/top-nav/etsy-icon.svg")
             a(href="#")
                 img(src="../imgs/top-nav/facebook-icon.svg")
+    //- Fullscreen Nav Menu for Mobile
+    div#mobile-menu
+        a(href="/")
+            p.logotext upstyling
+        a(href="#")
+            p ABOUT US
+        a(href="#")
+            p MISSION
+        a(href="#")
+            p CHARITIES
+        a(href="#")
+            p HOW YOU CAN HELP
+
+
+
+doctype html
+head
+    title Upstyling
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+body
+    +navbar
     block content
         

@@ -34,3 +34,29 @@
         display: none;
     }
 }
+
+#mobile-menu {
+    background-color: $olive;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: $white;
+
+    a {
+        text-decoration: none; 
+        color: inherit;
+        font: italic normal normal 20px/23px Asap, sans-serif;
+    }
+
+    p.logotext {
+        font: normal normal normal 56px/62px Cookie;
+    }
+
+}

@@ -18,8 +18,11 @@ $palegreen: #F4F9ED;
 @import 'topnav/topnav';
 
 /* Body Styling */
-body {
+body * {
     box-sizing: border-box;
+}
+
+body {
     background-color: $palegreen;
     margin: 0;
 }
