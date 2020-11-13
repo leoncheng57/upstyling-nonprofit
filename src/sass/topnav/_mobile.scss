@@ -18,7 +18,7 @@
             font: normal normal normal 32px/35px Cookie;
         }
 
-        .hamburger {
+        #hamburger {
             position: absolute;
             right: 10px;
             .patty {
@@ -27,6 +27,9 @@
                 background-color: $white;
                 margin: 6px 0;
             }
+        }
+        #hamburger:active {
+            opacity: 0.4;
         }
     }
 
@@ -53,6 +56,10 @@
         text-decoration: none; 
         color: inherit;
         font: italic normal normal 20px/23px Asap, sans-serif;
+        text-shadow: 2px 2px gray;
+    }
+    a:active {
+        opacity: 0.4;
     }
 
     p.logotext {
@@ -69,5 +76,8 @@
         position: absolute;
         right: 10px;
         top: 10px;
+    }
+    #close-icon:active {
+        opacity: 0.4;
     }
 }
