@@ -1,10 +1,15 @@
-doctype html
-head
-    title Upstyling
-    import(url='https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&family=Cookie&family=Flamenco:wght@300;400&display=swap')
-body
+mixin navbar
     div#topnav
-        div.inner
+        //- Mobile Hamburger Menu
+        div.mobile-version
+            a(href="/")
+                p.logotext upstyling
+            div#hamburger
+                div.patty 
+                div.patty 
+                div.patty 
+        //- Desktop Top Navbar
+        div.desktop-version
             a(href="/")
                 p.logotext upstyling
             a(href="#")
@@ -22,5 +27,28 @@ body
                 img(src="../imgs/top-nav/etsy-icon.svg")
             a(href="#")
                 img(src="../imgs/top-nav/facebook-icon.svg")
+    //- Fullscreen Nav Menu for Mobile
+    div#mobile-menu
+        img#close-icon(src="../imgs/top-nav/close-icon.svg")
+        a(href="/")
+            p.logotext upstyling
+        div.breakline
+        a(href="#")
+            p ABOUT US
+        a(href="#")
+            p MISSION
+        a(href="#")
+            p CHARITIES
+        a(href="#")
+            p HOW YOU CAN HELP
+
+
+
+doctype html
+head
+    title Upstyling
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+body
+    +navbar
     block content
         
