@@ -1,30 +1,57 @@
-#logo-container {
-    width: 100%;
-    background-color: $olive;
-    margin: 40px 0;
-    padding: 40px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    #logo-border {
+#homepage {
+    #logo-container {
+        width: 100%;
+        background-color: $olive;
+        margin: 40px 0;
+        padding: 40px 0;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 3px solid $white;
-        border-radius: 100%;
-        height: 60vw;
-        width: 60vw;
-        
-        #logo-title {
-            color: $white;
-            font: normal normal normal 56px/72px Cookie, sans-serif;
-        }
 
-        #logo-subtitle {
-            color: $pastelgreen;
-            font: normal normal normal 18px/32px Flamenco;
+        #logo-border {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid $white;
+            border-radius: 100%;
+            height: 60vw;
+            width: 60vw;
+            
+            #logo-title {
+                color: $white;
+                font: normal normal normal 56px/72px Cookie, sans-serif;
+            }
+
+            #logo-subtitle {
+                color: $pastelgreen;
+                font: normal normal normal 18px/32px Flamenco;
+            }
         }
     }
+
+    .checkerboard {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .text-container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    #etsy-logo {
+        margin: 20px;
+        width: 36px;
+        height: 42px;
+    }
+    #email-logo {
+        margin: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
 }

@@ -9,8 +9,21 @@ mixin logo
 
 
 block content
-    +logo
-    div (image goes here)
-    div Buy our stuff!
-    div You can purchase your very own artwork on our 
-        a(href="#") Etsy 
+    div#homepage
+        +logo
+        div.checkerboard
+            img(src="../imgs/homepage/pexels-artem-beliaikin.png")
+        div.checkerboard
+            div.text-container
+                p.heading1 Buy our stuff!
+                p.bodycopy You can purchase your very own artwork on our 
+                    a.link(href="#") Etsy 
+                img#etsy-logo(src="../imgs/homepage/etsy-icon.svg")
+        div.checkerboard
+            img(src="../imgs/homepage/melissa-askew-unsplash.png")
+        div.checkerboard
+            div.text-container
+                p.heading1 Donate your work!
+                p.bodycopy You can donate your work by emailing us at 
+                    a.link(href="#") upstyling.ga@gmail.com
+                img#email-logo(src="../imgs/homepage/email-icon.svg")
