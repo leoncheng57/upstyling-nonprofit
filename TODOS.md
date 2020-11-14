@@ -1,0 +1,2 @@
+- [ ] add favicon
+- [ ] update all href links in the html
