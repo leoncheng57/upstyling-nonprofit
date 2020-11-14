@@ -12,5 +12,42 @@
 
         @import 'logo';
         @import 'checkerboard';
+
+        .hearts-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+
+            @include large-screen {
+                margin-top: 40px;
+            }
+
+            img {
+                margin: 10px;
+            }
+        }
+
+        .gallery {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+
+            img {
+                width: 50%;
+
+                @include large-screen {
+                    width: 25%;
+                    padding: 5px;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .banner {
+            .text-container {
+                text-align: center;
+                padding: 20px;
+            }
+        }
     }
 }
