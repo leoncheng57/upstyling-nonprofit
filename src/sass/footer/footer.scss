@@ -1,0 +1,45 @@
+#footer-container {
+    background-color: $gray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    #footer-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+
+        width: 100%;
+
+        @include large-screen {
+            width: 1366px;
+            max-width: 80%;
+        }
+
+
+        p {
+            padding: 15px;
+            margin: 0;
+        }
+
+        .footer-logo {
+            font: normal normal normal 32px/33px Flamenco;
+        }
+        
+        .copyright {
+            font: normal normal normal 12px/26px Asap;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-style: italic;
+                cursor: zoom-in;
+            }
+            a:hover, a:active {
+                color: blue;
+            }
+        }
+    }
+
+}

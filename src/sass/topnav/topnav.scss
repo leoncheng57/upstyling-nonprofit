@@ -2,11 +2,11 @@
     background-color: $olive;
     color: $white;
     display: flex;
+    width: 100%;
     justify-content: center;
-
+    position: fixed;
     @import 'mobile-nav';
     @import 'desktop-nav';
 }
 
 @import 'mobile-menu';
-
