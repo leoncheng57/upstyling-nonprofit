@@ -1,9 +1,12 @@
-@import 'mobile';
-@import 'desktop';
-
 #topnav {
     background-color: $olive;
     color: $white;
     display: flex;
     justify-content: center;
+
+    @import 'mobile-nav';
+    @import 'desktop-nav';
 }
+
+@import 'mobile-menu';
+

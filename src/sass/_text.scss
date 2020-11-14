@@ -1,0 +1,17 @@
+.heading1 {
+    font: normal normal normal 48px/49px Flamenco;
+}
+
+.bodycopy {
+    font: normal normal normal 20px/23px Asap;
+}
+
+.link {
+    color: $darkpurple;
+    text-decoration: none;
+    font-style: italic;
+    cursor: pointer;
+}
+.link:hover, .link:active {
+    opacity: 0.5;
+}

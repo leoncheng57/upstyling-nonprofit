@@ -1,4 +1,49 @@
 extends layout
 
+
+mixin logo
+    div#logo-container
+        div#logo-background
+            div#logo-border
+                div#logo-title upstyling
+                div#logo-subtitle Creations for Change
+
+
 block content
-    div content 
+    div#homepage
+        div.inner-page
+            +logo
+            div.checkerboard
+                div.boardspot
+                    img(src="../imgs/homepage/pexels-artem-beliaikin.png")
+                div.boardspot
+                    div.text-container
+                        p.heading1 Buy our stuff!
+                        p.bodycopy You can purchase your very own artwork on our 
+                            a.link(href="#") Etsy 
+                        img#etsy-logo(src="../imgs/homepage/etsy-icon.svg")
+                div.boardspot.mobile-only
+                    img(src="../imgs/homepage/melissa-askew-unsplash.png")
+                div.boardspot
+                    div.text-container
+                        p.heading1 Donate your work!
+                        p.bodycopy You can donate your work by emailing us at 
+                            a.link(href="#") upstyling.ga@gmail.com
+                        img#email-logo(src="../imgs/homepage/email-icon.svg")
+                div.boardspot.desktop-only
+                    img(src="../imgs/homepage/melissa-askew-unsplash.png")
+            div.hearts-container
+                img(src="../imgs/homepage/heart-icon.svg")
+                img(src="../imgs/homepage/heart-icon.svg")
+                img(src="../imgs/homepage/heart-icon.svg")
+            div.gallery
+                img(src="../imgs/homepage/home-image-3.png")
+                img(src="../imgs/homepage/home-image-4.png")
+                img(src="../imgs/homepage/home-image-5.png")
+                img(src="../imgs/homepage/home-image-6.png")
+
+            div.banner
+                div.text-container
+                    p.heading1 Follow us on Instragram
+                    p.bodycopy
+                        a.link(href="#") @_upstyling

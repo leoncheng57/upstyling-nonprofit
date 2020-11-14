@@ -1,0 +1,15 @@
+// Sizes
+// $mobile-width: 600px;
+$desktop-width: 1024px;
+
+// @mixin small-screen { 
+//     @media (min-width: #{$mobile-width}) {
+//         @content;
+//     }
+// }
+
+@mixin large-screen { 
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}

@@ -1,28 +1,16 @@
+/* Variables */
+@import 'colors';
+@import 'breakpoints';
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&family=Cookie&family=Flamenco:wght@300;400&display=swap');
+@import 'text';
 
 
-/* Colors: */
-$black: #000000;
-$darkpurple: #805D93;
-$lightpurple: #DDC6E7;
-$gray: #E8EAEC;
-$olive: #8FA282;
-$lightwhite: #FAFCFC;
-$white: #FFFFFF;
-$pastelgreen: #E2F0CB;
-$palegreen: #F4F9ED;
-
-/* Imports */
-@import 'breakpoints/breakpoints';
+/* Styles */
+@import 'body/body';
 @import 'topnav/topnav';
+@import 'homepage/homepage';
 
-/* Body Styling */
-body * {
-    box-sizing: border-box;
-}
 
-body {
-    background-color: $palegreen;
-    margin: 0;
-}
+
