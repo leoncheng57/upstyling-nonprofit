@@ -1,0 +1,51 @@
+.checkerboard{
+    display: flex;
+    flex-wrap: wrap;
+
+    .boardspot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+
+        @include large-screen {
+            width: 50%;
+        }
+
+        img {
+            width: 100%;
+        }
+    
+        .text-container {
+            text-align: center;
+            padding: 20px;
+        }
+        #etsy-logo {
+            margin: 20px;
+            width: 36px;
+            height: 42px;
+        }
+        #email-logo {
+            margin: 20px;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    // The 2nd image should be put at the end in desktop view
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+    @include large-screen {
+        .desktop-only {
+            display: block;
+        }
+        .mobile-only {
+            display: none;
+        }
+    }
+}
