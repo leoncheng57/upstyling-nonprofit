@@ -42,6 +42,8 @@ mixin navbar
         a(href="#")
             p HOW YOU CAN HELP
 
+mixin footer
+    div#footer hello i am foot
 
 
 doctype html
@@ -50,5 +52,6 @@ head
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
 body
     +navbar
+    div#spacer
     block content
-        
+    +footer
