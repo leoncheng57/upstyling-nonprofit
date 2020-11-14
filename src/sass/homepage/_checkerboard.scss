@@ -38,11 +38,11 @@
         display: none;
     }
     .mobile-only {
-        display: block;
+        display: flex;
     }
     @include large-screen {
         .desktop-only {
-            display: block;
+            display: flex;
         }
         .mobile-only {
             display: none;
