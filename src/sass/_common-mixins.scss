@@ -1,0 +1,19 @@
+@mixin inner-page($page-div) {
+    
+    #{$page-div} {
+
+        display: flex;
+        justify-content: center;
+    
+        .inner-page {
+            display: block;
+    
+            @include large-screen {
+                width: 1366px;
+                max-width: 80%;
+            }
+    
+            @content;
+        }
+    }
+}

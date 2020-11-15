@@ -1,0 +1,61 @@
+@include inner-page("#about-us-page") {
+
+    @include large-screen {
+        width: 60%;
+    }
+
+    .page-heading {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .passion-image, .profiles-image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        img {
+            width: 100%;
+            @include large-screen {
+                width: 40%;
+            }
+        }
+    }
+    .passion-image {
+        margin-bottom: 20px;
+    }
+    .profiles-image {
+        padding: 20px;
+    }
+
+    .text-container {
+        width: 100%;
+        padding: 0 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .founder-name-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 40px;
+        
+        @include large-screen {
+            width: 60%;
+            margin: auto;
+        }
+
+        .founder-name {
+            text-align: center;
+            font: italic normal normal 24px/40px Asap;
+        }
+    }
+
+    .spacer {
+        height: 30px;
+        width: 100%;
+    }
+}

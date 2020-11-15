@@ -61,6 +61,10 @@ const config = {
             filename: 'index.html',
             template: 'src/pug/index.pug',
         }),
+        new HtmlWebpackPlugin({
+            filename: 'about-us.html',
+            template: 'src/pug/about-us.pug',
+        }),
         new MiniCssExtractPlugin({
             filename: "bundle.css"
         })

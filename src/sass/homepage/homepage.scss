@@ -1,17 +1,5 @@
-#homepage {
-    display: flex;
-    justify-content: center;
-
-    .inner-page {
-        display: block;
-
-        @include large-screen {
-            width: 1366px;
-            max-width: 80%;
-        }
-
-        @import 'logo';
-        @import 'checkerboard';
-        @import 'other';
-    }
+@include inner-page("#homepage"){
+    @import 'logo';
+    @import 'checkerboard';
+    @import 'other';
 }

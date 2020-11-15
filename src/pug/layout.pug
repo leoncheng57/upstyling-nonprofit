@@ -1,3 +1,9 @@
+- var homepage_url = "./index.html"
+- var about_us_url = "./about-us.html"
+- var mission_url = "#"
+- var charities_url = "#"
+- var how_help_url = "#"
+
 mixin navbar
     div#topnav
         //- Mobile Hamburger Menu
@@ -10,15 +16,15 @@ mixin navbar
                 div.patty 
         //- Desktop Top Navbar
         div.desktop-version
-            a(href="/")
+            a(href=`${homepage_url}`)
                 p.logotext upstyling
-            a(href="#")
+            a(href=`${about_us_url}`)
                 p ABOUT US
-            a(href="#")
+            a(href=`${mission_url}`)
                 p MISSION
-            a(href="#")
+            a(href=`${charities_url}`)
                 p CHARITIES
-            a(href="#")
+            a(href=`${how_help_url}`)
                 p HOW YOU CAN HELP
             div.spacer
             a(href="#")
@@ -30,16 +36,16 @@ mixin navbar
     //- Fullscreen Nav Menu for Mobile
     div#mobile-menu
         img#close-icon(src="../imgs/top-nav/close-icon.svg")
-        a(href="/")
+        a(href=`${homepage_url}`)
             p.logotext upstyling
         div.breakline
-        a(href="#")
+        a(href=`${about_us_url}`)
             p ABOUT US
-        a(href="#")
+        a(href=`${mission_url}`)
             p MISSION
-        a(href="#")
+        a(href=`${charities_url}`)
             p CHARITIES
-        a(href="#")
+        a(href=`${how_help_url}`)
             p HOW YOU CAN HELP
 
 mixin footer
@@ -59,6 +65,6 @@ head
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
 body
     +navbar
-    div#spacer
+    div#nav-spacer
     block content
     +footer
