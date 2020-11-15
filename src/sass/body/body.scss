@@ -9,6 +9,10 @@ body {
     width: 100%;
 }
 
-#spacer {
-    height: 10vh;
+#nav-spacer {
+    height: 15vh;
+
+    @include large-screen {
+        height: 10vh;
+    }
 }
