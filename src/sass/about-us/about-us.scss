@@ -1,4 +1,4 @@
-#about-us-page {
+@include inner-page("#about-us-page") {
     .page-heading {
         display: flex;
         width: 100%;

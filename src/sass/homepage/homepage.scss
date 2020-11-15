@@ -1,7 +1,5 @@
-#homepage {
-    @include inner-page{
-        @import 'logo';
-        @import 'checkerboard';
-        @import 'other';
-    }
+@include inner-page("#homepage"){
+    @import 'logo';
+    @import 'checkerboard';
+    @import 'other';
 }
