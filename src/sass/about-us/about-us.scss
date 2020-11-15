@@ -1,4 +1,9 @@
 @include inner-page("#about-us-page") {
+
+    @include large-screen {
+        width: 60%;
+    }
+
     .page-heading {
         display: flex;
         width: 100%;
@@ -6,22 +11,22 @@
         text-align: center;
     }
 
-    .passion-image {
+    .passion-image, .profiles-image {
         display: flex;
+        justify-content: center;
         width: 100%;
-        margin-bottom: 20px;
         img {
             width: 100%;
+            @include large-screen {
+                width: 40%;
+            }
         }
     }
-
+    .passion-image {
+        margin-bottom: 20px;
+    }
     .profiles-image {
-        display: flex;
-        width: 100%;
         padding: 20px;
-        img {
-            width: 100%;
-        }
     }
 
     .text-container {
@@ -37,6 +42,11 @@
         display: flex;
         justify-content: space-around;
         padding: 0 40px;
+        
+        @include large-screen {
+            width: 60%;
+            margin: auto;
+        }
 
         .founder-name {
             text-align: center;
