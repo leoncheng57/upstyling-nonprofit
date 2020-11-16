@@ -1,6 +1,6 @@
 - var homepage_url = "./index.html"
 - var about_us_url = "./about-us.html"
-- var mission_url = "#"
+- var mission_url = "./mission.html"
 - var charities_url = "#"
 - var how_help_url = "#"
 
@@ -8,7 +8,7 @@ mixin navbar
     div#topnav
         //- Mobile Hamburger Menu
         div.mobile-version
-            a(href="/")
+            a(href=`${homepage_url}`)
                 p.logotext upstyling
             div#hamburger
                 div.patty 
