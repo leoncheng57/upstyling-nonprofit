@@ -1,11 +1,21 @@
 @include inner-page("#mission-page") {
 
+    @include large-screen {
+        width: 50%;
+    }
+
     .quad-image {
         width: 100%;
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
 
         img {
             width: 100%;
+            @include large-screen {
+                width: 40%;
+                height: auto;
+            }
         }
     }   
 
@@ -24,9 +34,9 @@
 
     .button-container {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
         margin-bottom: 80px;
 
         button {
