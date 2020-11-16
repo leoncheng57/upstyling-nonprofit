@@ -1,4 +1,9 @@
 #nav-spacer {
     min-height: 50px;
-    height: 10vh;
+
+    height: 15vh;
+
+    @include large-screen {
+        height: 10vh;
+    }
 }

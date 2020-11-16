@@ -4,13 +4,6 @@
         width: 60%;
     }
 
-    .page-heading {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    }
-
     .passion-image, .profiles-image {
         display: flex;
         justify-content: center;
@@ -28,15 +21,6 @@
     }
     .profiles-image {
         padding: 20px;
-    }
-
-    .text-container {
-        width: 100%;
-        padding: 0 30px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
     }
 
     .founder-name-container {
