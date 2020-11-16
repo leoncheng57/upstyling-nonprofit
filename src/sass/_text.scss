@@ -3,7 +3,7 @@
 }
 
 .heading2 {
-    font: normal normal 300 64px/50px Flamenco;
+    font: normal normal 300 64px/40px Flamenco;
 }
 
 .bodycopy1 {
@@ -12,6 +12,19 @@
 
 .bodycopy2 {
     font: normal normal normal 16px/24px Asap;
+}
+
+.page-heading {
+    text-align: center;
+}
+
+.text-container {
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .link {
