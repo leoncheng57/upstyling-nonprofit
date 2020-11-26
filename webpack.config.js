@@ -60,22 +60,27 @@ const config = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/pug/index.pug',
+            favicon: './src/favicon/favicon.svg'
         }),
         new HtmlWebpackPlugin({
             filename: 'about-us.html',
             template: 'src/pug/about-us.pug',
+            favicon: './src/favicon/favicon.svg'
         }),
         new HtmlWebpackPlugin({
             filename: 'mission.html',
             template: 'src/pug/mission.pug',
+            favicon: './src/favicon/favicon.svg'
         }),
         new HtmlWebpackPlugin({
             filename: 'charities.html',
             template: 'src/pug/charities.pug',
+            favicon: './src/favicon/favicon.svg'
         }),
         new HtmlWebpackPlugin({
             filename: 'how-help.html',
             template: 'src/pug/how-help.pug',
+            favicon: './src/favicon/favicon.svg'
         }),
         new MiniCssExtractPlugin({
             filename: "bundle.css"
