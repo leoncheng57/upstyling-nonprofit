@@ -1,9 +1,4 @@
 #nav-spacer {
-    min-height: 50px;
-
-    height: 15vh;
-
-    @include large-screen {
-        height: 10vh;
-    }
+    height: 70px;
+    // This is the same as the navbar height css
 }

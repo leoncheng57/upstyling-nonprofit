@@ -73,6 +73,10 @@ const config = {
             filename: 'charities.html',
             template: 'src/pug/charities.pug',
         }),
+        new HtmlWebpackPlugin({
+            filename: 'how-help.html',
+            template: 'src/pug/how-help.pug',
+        }),
         new MiniCssExtractPlugin({
             filename: "bundle.css"
         })

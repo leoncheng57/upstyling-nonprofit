@@ -3,8 +3,11 @@
     color: $white;
     display: flex;
     width: 100%;
+    height: 70px; 
     justify-content: center;
     position: fixed;
+    z-index: 4;
+
     @import 'mobile-nav';
     @import 'desktop-nav';
 
