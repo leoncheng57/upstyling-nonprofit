@@ -15,6 +15,7 @@
 .gallery {
     display: flex;
     width: 100%;
+    height: auto;
     flex-wrap: wrap;
 
     img {
@@ -23,6 +24,7 @@
 
         @include large-screen {
             width: 25%;
+            height: auto;
             padding: 5px;
             border-radius: 10px;
         }
