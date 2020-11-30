@@ -19,8 +19,8 @@
     flex-wrap: wrap;
 
     img {
-        width: 50%;
-        height: auto;
+        width: 50vw;
+        height: 50vw;
 
         @include large-screen {
             width: 25%;
