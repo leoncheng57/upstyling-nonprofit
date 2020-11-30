@@ -4,6 +4,11 @@
 - var charities_url = "./charities.html"
 - var how_help_url = "./how-help.html"
 
+- var etsy_url = "https://www.etsy.com/people/dxofzbsy"
+- var insta_url = "https://www.instagram.com/_upstyling/"
+- var email_url = "mailto:upstyling.ga@gmail.com"
+- var facebook_url = "https://www.facebook.com/upstylingco/?modal=admin_todo_tour"
+
 mixin navbar
     div#topnav
         //- Mobile Hamburger Menu
@@ -27,11 +32,11 @@ mixin navbar
             a(href=`${how_help_url}`)
                 p HOW YOU CAN HELP
             div.spacer
-            a(href="#")
+            a(href=`${insta_url}`)
                 img(src="../imgs/top-nav/insta-icon.svg")
-            a(href="#")
+            a(href=`${etsy_url}`)
                 img(src="../imgs/top-nav/etsy-icon.svg")
-            a(href="#")
+            a(href=`${facebook_url}`)
                 img(src="../imgs/top-nav/facebook-icon.svg")
     //- Fullscreen Nav Menu for Mobile
     div#mobile-menu
