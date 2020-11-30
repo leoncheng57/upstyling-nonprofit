@@ -5,7 +5,7 @@
     - [x] add HOME link to mobile navbar
     - [x] add the three social icons to mobile navbar
     - [x] add shadow to mobile navbar when it slides down
-- [ ] Add Google Analytics
+- [x] Add Google Analytics
 
 ## Optional
 - [ ] Dynamically use the lower-qual images for smaller screens
