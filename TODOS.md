@@ -4,7 +4,7 @@
 - [ ] navbar 
     - [x] add HOME link to mobile navbar
     - [x] add the three social icons to mobile navbar
-    - [ ] add shadow to mobile navbar when it slides down
+    - [x] add shadow to mobile navbar when it slides down
 - [ ] Add Google Analytics
 
 ## Optional
