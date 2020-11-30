@@ -1,3 +1,14 @@
+#mobile-dark-overlay {
+    background-color: $olive;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    opacity: 0.8;
+    display: none;
+    z-index: 2;
+}
+
 #mobile-menu {
     background-color: $olive;
     position: fixed;
@@ -39,5 +50,18 @@
     }
     #close-icon:active {
         opacity: 0.4;
+    }
+
+    .social-icons {
+        margin-top: 40px;
+        
+        a {
+            margin: 0 20px;
+            
+            img {
+                width: auto;
+                height: 24px;
+            }
+        }
     }
 }

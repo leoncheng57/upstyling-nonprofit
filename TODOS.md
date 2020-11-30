@@ -1,8 +1,10 @@
 ## Required
 - [x] add favicon
-- [ ] update all href links in all pug pages
+- [x] update all href links in all pug pages
 - [ ] navbar 
-    - [ ] add the three social icons to mobile navbar
+    - [x] add HOME link to mobile navbar
+    - [x] add the three social icons to mobile navbar
+    - [x] add shadow to mobile navbar when it slides down
 - [ ] Add Google Analytics
 
 ## Optional
