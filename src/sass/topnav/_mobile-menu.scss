@@ -40,4 +40,17 @@
     #close-icon:active {
         opacity: 0.4;
     }
+
+    .social-icons {
+        margin-top: 40px;
+        
+        a {
+            margin: 0 20px;
+            
+            img {
+                width: auto;
+                height: 24px;
+            }
+        }
+    }
 }

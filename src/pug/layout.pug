@@ -44,6 +44,8 @@ mixin navbar
         a(href=`${homepage_url}`)
             p.logotext upstyling
         div.breakline
+        a(href=`${homepage_url}`)
+            p HOME
         a(href=`${about_us_url}`)
             p ABOUT US
         a(href=`${mission_url}`)
@@ -52,6 +54,14 @@ mixin navbar
             p CHARITIES
         a(href=`${how_help_url}`)
             p HOW YOU CAN HELP
+        div.social-icons
+            a(href=`${insta_url}`)
+                img(src="../imgs/top-nav/insta-icon.svg")
+            a(href=`${etsy_url}`)
+                img(src="../imgs/top-nav/etsy-icon.svg")
+            a(href=`${facebook_url}`)
+                img(src="../imgs/top-nav/facebook-icon.svg")
+
 
 mixin footer
     div#footer-container
