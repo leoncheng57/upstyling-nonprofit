@@ -2,13 +2,15 @@
 
 View at https://upstyling.github.io/
 
+![Readme Image](readme-image.png)
+
 ## Purpose
 
 Central website for the nonprofit Upstyling, started by two high schoolers in Georgia. Upstyling takes donated artwork/creations from the youth across the country and sell them for a profit that goes directly to charities surrounding the major issues in our world.
 
 ## My Motivation
 
-I wanted to challenge myself to build an entire website from the research & design phase all the way to code and deployment. I was able to do that by working on a little by little over the span of a month. I especially enjoyed communicating with the cofounder to build them something that would help a positive impact, figuring out how to make a design that fit their theme, and seeing the completed project on the WWW.
+I wanted to challenge myself to build an entire website from the research & design phase all the way to code and deployment. I was able to do that by working on a little by little over the span of a month. I especially enjoyed communicating with the cofounder to build them something that would help a positive impact, figuring out how to make a design that fit their theme, and seeing the completed project on the world wide web.
 
 ## Built With
 
